@@ -1,0 +1,6 @@
+py/com/progweb/model/Agenda.class
+py/com/progweb/ejb/AgendaDAO.class
+py/com/progweb/model/Persona.class
+py/com/progweb/rest/PersonaREST.class
+py/com/progweb/ejb/PersonaDAO.class
+py/com/progweb/rest/ApplicationConfig.class
