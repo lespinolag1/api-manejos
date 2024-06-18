@@ -19,13 +19,13 @@ public class PersonaREST {
     @GET
     @Path("/")
     public Response listar(){
-        return Response.ok(personaDAO.lista()).build();
+        return Response.ok(personaDAO.listaPersonas()).build();
     }
 
     @POST
     @Path("/")
     public Response crear(Persona p){
-        this.personaDAO.agregar(p);
+        this.personaDAO.agregarPersona(p);
     return Response.ok().build();
 
     }

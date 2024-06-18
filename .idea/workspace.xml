@@ -1,18 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="api-manejos:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0a1c83f-cf2e-4dd2-bdca-4cac64d81a29" name="Default Changelist" comment="" />
+    <list default="true" id="c0a1c83f-cf2e-4dd2-bdca-4cac64d81a29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/BolsaPuntosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/ConceptoCanjeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/ReglaPuntosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/VencimientoPuntosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/BolsaPuntos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/ConceptoCanje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/ReglaPuntos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/VencimientoPuntos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/rest/ConceptoCanjeREST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/rest/ReglaPuntosREST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/rest/VencimientoPuntosREST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/dao/ConceptoCanjeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/dao/PersonaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/dao/ReglaPuntosDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/dao/VencimientoPuntosDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/model/ConceptoCanje.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/model/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/model/ReglaPuntos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/model/VencimientoPuntos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/rest/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/rest/ConceptoCanjeREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/rest/PersonaREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/rest/ReglaPuntosREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/manejos/rest/VencimientoPuntosREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/dao/ConceptoCanjeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/dao/PersonaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/dao/ReglaPuntosDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/dao/VencimientoPuntosDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/model/ConceptoCanje.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/model/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/model/ReglaPuntos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/model/VencimientoPuntos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/rest/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/rest/ConceptoCanjeREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/rest/PersonaREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/rest/ReglaPuntosREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/py/com/progweb/manejos/rest/VencimientoPuntosREST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-manejos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-manejos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/AgendaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/PersonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/PersonaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/Agenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/model/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/rest/PersonaREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/rest/PersonaREST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-manejos.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/ejb/AgendaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/ejb/PersonaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/model/Agenda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/model/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-manejos/WEB-INF/classes/py/com/progweb/rest/PersonaREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/ejb/AgendaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/ejb/PersonaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/model/Agenda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/model/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/rest/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/py/com/progweb/rest/PersonaREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2hw1Qk1yJz0hQy2S7TwoklV54j0" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="py.com.progweb.manejos.dao" />
+      <recent name="py.com.progweb.manejos.model" />
+      <recent name="py.com.progweb.manejos.rest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -27,51 +113,75 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="api-manejos" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="api-manejos:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="13171" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="api-manejos" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="api-manejos:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -86,10 +196,33 @@
       <option name="presentableId" value="Default" />
       <updated>1718490311800</updated>
       <workItem from="1718490313521" duration="1360000" />
+      <workItem from="1718673750327" duration="7538000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/py/com/progweb/manejos/dao/VencimientoPuntosDAO.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
