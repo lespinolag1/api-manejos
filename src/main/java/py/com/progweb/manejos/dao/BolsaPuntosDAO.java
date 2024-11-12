@@ -17,7 +17,6 @@ public class BolsaPuntosDAO {
     private EntityManager em;
 
     public void agregarBolsa(BolsaPuntos bag){
-
         this.em.persist(bag);
     }
 

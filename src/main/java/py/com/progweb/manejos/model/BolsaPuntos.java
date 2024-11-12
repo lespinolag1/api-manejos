@@ -20,6 +20,11 @@ public class BolsaPuntos {
     private Integer id_cliente;
 
 
+    @Column(name = "fecha_asignacion", length = 50)
+    @Basic(optional = false)
+    private Date fecha_asignacion;
+
+
     @Column(name = "fecha_caducidad", length = 50)
     @Basic(optional = false)
     private Date fecha_caducidad;
@@ -62,6 +67,14 @@ public class BolsaPuntos {
 
     public void setId_cliente(Integer id_cliente) {
         this.id_cliente = id_cliente;
+    }
+
+    public Date getFecha_asignacion() {
+        return fecha_asignacion;
+    }
+
+    public void setFecha_asignacion(Date fecha_asignacion) {
+        this.fecha_asignacion = fecha_asignacion;
     }
 
     public Date getFecha_caducidad() {
